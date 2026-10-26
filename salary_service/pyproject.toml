@@ -1,0 +1,25 @@
+[project]
+name = "trainer-service"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ujjwal",email = "ujjvaltyagi18@gmail.com"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi (>=0.139.0,<0.140.0)",
+    "uvicorn (>=0.49.0,<0.50.0)",
+    "sqlalchemy (>=2.0.51,<3.0.0)",
+    "psycopg2-binary (>=2.9.12,<3.0.0)",
+    "alembic (>=1.18.5,<2.0.0)",
+    "py (>=1.11.0,<2.0.0)",
+    "sqlmodel (>=0.0.39,<0.0.40)",
+    "pymysql (>=1.2.0,<2.0.0)",
+    "python-jose[cryptography] (>=3.5.0,<4.0.0)",
+    "passlib (>=1.7.4,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
